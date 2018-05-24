@@ -57,6 +57,7 @@ def can_find_using_where_clause_and_be_sorted
   # release date descending
   Movie.where("release_date >= 2002").map do |m|
     m.descending
+  end
 end
 
 def can_be_found_updated_and_saved
