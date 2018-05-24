@@ -82,8 +82,8 @@ def can_update_multiple_items_at_once
 end
 
 def can_destroy_a_single_item
-  todo = Movie.create(title: "That One Where the Guy Kicks Another Guy Once")
-  Movie.destroy(todo)
+  Movie.create(title: "That One Where the Guy Kicks Another Guy Once")
+  Movie.destroy(1)
   __
 end
 
