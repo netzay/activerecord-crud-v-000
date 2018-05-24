@@ -51,6 +51,7 @@ def can_find_by_multiple_attributes
   # director == "Me"
   Movie.find_by(title:)
 end
+end
 
 def can_find_using_where_clause_and_be_sorted
   # For this test return all movies released after 2002 and ordered by
